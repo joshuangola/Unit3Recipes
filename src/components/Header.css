@@ -1,0 +1,24 @@
+header {
+    background-color: darkorange;
+    height: 3.75rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    margin-left: 5rem;
+}
+
+button {
+    background-color: darkorange;
+    border: none;
+    color: white;
+    margin-right: 2rem;
+}
+
+button:hover {
+    background-color: orange;
+    box-shadow: 2px 2px 2px rosybrown;
+}

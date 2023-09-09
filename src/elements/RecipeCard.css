@@ -1,0 +1,26 @@
+.recipe-card {
+    width: 18.75rem;
+    height: 28.125rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 3px 10px black;
+    justify-content: space-between;
+    padding-bottom: .75rem;
+    box-sizing: border-box;
+    border-radius: .25rem;
+}
+
+.recipe-image-container {
+    width: 18.75rem;
+    height: 18.75rem;
+    margin-bottom: .8rem;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .15rem .15rem 0px 0px;
+}

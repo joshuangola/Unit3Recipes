@@ -1,0 +1,86 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  height: fit-content;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input,
+form textarea {
+  border: 1px solid rgb(88, 58, 47);
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+}
+
+form input[type="radio"] {
+  height: 2rem;
+  width: 2rem;
+  border: 0.2rem;
+}
+
+form label {
+  font-size: 1.3rem;
+}
+
+form h5 {
+  color: black;
+}
+
+textarea {
+  width: 100%;
+}
+
+.radio-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.radio-container span {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+}
+
+.input-container input {
+  width: 100%;
+}
+
+.ingredient-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+
+ul {
+  width: 50%;
+}
+
+.orange-button {
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+}
+
+.blue-btn {
+  margin-bottom: 5rem;
+  border-radius: 0.25rem;
+}

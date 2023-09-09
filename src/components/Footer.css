@@ -1,0 +1,31 @@
+footer {
+  height: 9.375rem;
+  background-color: rgb(97, 95, 95);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.icons {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 0.313rem;
+  position: relative;
+}
+
+.circle {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
